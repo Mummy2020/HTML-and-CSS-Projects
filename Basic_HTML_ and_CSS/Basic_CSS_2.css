@@ -1,2 +1,6 @@
 body {color:black; background-color: white; font-size: blue; font-weight: bold; text-shadow:-1px -9px 1px #909; text-align: center; }
 .class_1 {color: blue;}
+summary {color: #007bff;
+	background-color: #eee;
+	border: 1px solid #ccc;
+padding:1em; cursor: pinter; }
