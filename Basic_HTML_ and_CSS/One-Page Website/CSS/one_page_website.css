@@ -1,0 +1,12 @@
+html {
+    font-family: sans-serif;
+    font-size: 80%;
+
+}
+
+input {
+    width: 65%;
+    margin: 5px;
+    border: 0px solid #fff;
+    border-radius: 6px;
+}
