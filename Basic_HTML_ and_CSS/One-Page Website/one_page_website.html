@@ -3,14 +3,15 @@
 		<head>
 			<title> Leigh's Donut | Shop</title>
 			<meta charset="utf-8">
-			<link rel="stylesheet" href="./css/one_page_website.css"
+			<link rel="stylesheet" href="./css/one_page_website.css">
+			<script src="JS/One_page_website.js"></script>
 		</head>
 		<body>
 		
 			<!--NAV -->
 			<div>
-				<div>
-					<div>
+				<div class="wrap">
+					<div class="home">
 						<ul>
 							<li><a href="#home" id="link">Home</li></a>
 							<li><a href="#gallery">Gallery</li></a>
@@ -36,109 +37,205 @@
 					<h1>Gallery</h1>
 					
 					<!--Photo-container 1 -->
-					<div>
-						<div>
-							<img src="./image/donut_1.png" width="200" height="200" alt="Donut">
-							<div>
+					<div class="row">
+						<div class="column">
+							<img src="./image/donut_1.png" style="width:100%" onclick="openModal(),currentSlide(1)" 
+								class="hover-shadow cursor" alt="Donut">
+						
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>We have the best local donut in town!</P>
 							</div>
 						</div>
-					</div>
+					
 					<!--End phot-container-->
 					
 					<!--Photo-container 2 -->
-					<div>
-						<div>
-							<img src="./image/donut_2.png" width="200" height="200" alt="Donut" >
-							<div>
+					
+						<div class="column">
+							<img src="./image/donut_2.png" style="width:100%" onclick="openModal(),currentSlide(2)" 
+							class="hover-shadow cursor" alt="Donut">
+						
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Our donut gives you the right amount of taste</P>
 							</div>
 						</div>
-					</div>
 					<!--End phot-container-->
 					
 					<!--Photo-container 3 -->
-					<div>
-						<div>
-							<img src="./image/donut_3.png" width="200" height="200" alt="Donut">
-							<div>
+					
+						<div class="column">
+							<img src="./image/donut_3.png" style="width:100%" onclick="openModal(),currentSlide(3)" 
+							class="hover-shadow cursor" alt="Donut">
+						
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>For all your breakfast need, we got your back</P>
 							</div>
 						</div>
 					</div>
+					<div class="row">
 					<!--End phot-container-->
 					
 					<!--Photo-container 4 -->
-					<div>
-						<div>
-							<img src="./image/donut_4.png" width="200" height="200" alt="Donut">
-							<div>
+						<div class="column">
+							<img src="./image/donut_4.png" style="width:100%" onclick="openModal(),currentSlide(4)" 
+							class="hover-shadow cursor" alt="Donut">
+						
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>When quality meet with deliciousness!</P>
-							</div>
-						</div>
-					</div>
+					</div>	</div>
+						
 					<!--End phot-container-->
 					
 					<!--Photo-container 5 -->
 					
-						<div>
-							<img src="./image/donut_5.png" width="200" height="200" alt="Donut">
-							<div>
+						<div class="column">
+							<img src="./image/donut_5.png" style="width:100%" onclick="openModal(),currentSlide(5)" 
+							class="hover-shadow cursor" alt="Donut">
+						
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Right amount of sugar and texture!</P>
 							</div>
 						</div>
-					</div>
 					<!--End phot-container-->
 					
 					<!--Photo-container 6 -->
-					<div>
-						<div>
-							<img src="./image/donut_6.png" width="200" height="200" alt="Donut">
-							<div>
+						<div class="column">
+							<img src="./image/donut_6.png" style="width:100%" onclick="openModal(),currentSlide(6)" 
+							class="hover-shadow cursor" alt="Donut">
+						
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Pefect donut for you, grab it now!</P>
 							</div>
-						</div>
+						</div>	
 					</div>
+					<div class="row">
 					<!--End phot-container-->
 					
 					<!--Photo-container 7 -->
-					<div>
-						<div>
-							<img src="./image/donut_7.png" width="200" height="200" alt="Donut">
-							<div>
+						<div class="column">
+							<img src="./image/donut_7.png" style="width:100%" onclick="openModal(),currentSlide(7)" 
+							class="hover-shadow cursor" alt="Donut">
+						
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Beyond imagination!</P>
 							</div>
 						</div>
-					</div>
 					<!--End phot-container-->
 					
 					<!--Photo-container 8 -->
 					
-						<div>
-							<img src="./image/donut_8.png" width="200" height="200" alt="Donut">
-							<div>
+						<div class="column">
+							<img src="./image/donut_8.png" style="width:100%" onclick="openModal(),currentSlide(8)" 
+							class="hover-shadow cursor" alt="Donut">
+						
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>We cater for all events with our yummy donuts!</P>
 							</div>
 						</div>
-					</div>
 					<!--End phot-container-->
 					
 					<!--Photo-container 9 -->
-					<div>
-						<div>
-							<img src="./image/donut_9.png" width="200" height="200" alt="Donut">
-							<div>
+						<div class="column">
+							<img src="./image/donut_9.png" style="width:100%" onclick="openModal(),currentSlide(9)" 
+							class="hover-shadow cursor" alt="Donut">
+						
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Come check us out for all our delicious donuts!</P>
-							</div>
+							</div>	
+						</div>
+					</div>
+					<div id="myModal" class="modal">
+						<span class="close cursor" onclick="closeModal()">&times;</span>
+						<div class="modal-content">
+					  
+						  <div class="mySlides">
+							<div class="numbertext">1 / 9</div>
+							<img src="./image/donut_1.png" style="width:100%,">
+						  </div>
+					  
+						  <div class="mySlides">
+							<div class="numbertext">2 / 9</div>
+							<img src="./image/donut_2.png" style="width:100%">
+						  </div>
+					  
+						  <div class="mySlides">
+							<div class="numbertext">3 / 9</div>
+							<img src="./image/donut_3.png" style="width:100%">
+						  </div>
+						  
+						  <div class="mySlides">
+							<div class="numbertext">4 / 9</div>
+							<img src="./image/donut_4.png" style="width:100%">
+						  </div>
+
+						  <div class="mySlides">
+							<div class="numbertext">5 / 9</div>
+							<img src="./image/donut_5.png" style="width:100%">
+						  </div>
+
+						  <div class="mySlides">
+							<div class="numbertext">6 / 9</div>
+							<img src="./image/donut_6.png" style="width:100%">
+						  </div>
+
+						  <div class="mySlides">
+							<div class="numbertext">7 / 9</div>
+							<img src="./image/donut_7.png" style="width:100%">
+						  </div>
+
+						  <div class="mySlides">
+							<div class="numbertext">8 / 9</div>
+							<img src="./image/donut_8.png" style="width:100%">
+						  </div>
+						  <div class="mySlides">
+							<div class="numbertext">9 / 9</div>
+							<img src="./image/donut_9.png" style="width:100%">
+						  </div>
+						  
+						  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+						  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+					  
+						  <div class="caption-container">
+							<p id="caption"></p>
+						  </div>
+					  
+					  
+						  <div class="column">
+							<img class="demo cursor" src="./image/donut_1.png" style="width:100%" onclick="currentSlide(1)" alt="delicious donut">
+						  </div>
+						  <div class="column">
+							<img class="demo cursor" src="./image/donut_2.png" style="width:100%" onclick="currentSlide(2)" alt="organic donut">
+						  </div>
+						  <div class="column">
+							<img class="demo cursor" src="./image/donut_3.png" style="width:100%" onclick="currentSlide(3)" alt="crucnhy donut">
+						  </div>
+						  <div class="column">
+							<img class="demo cursor" src="./image/donut_4.png" style="width:100%" onclick="currentSlide(4)" alt="sweet donut">
+						  </div>
+						  <div class="column">
+							<img class="demo cursor" src="./image/donut_5.png" style="width:100%" onclick="currentSlide(4)" alt="donut of love">
+						  </div>
+						  <div class="column">
+							<img class="demo cursor" src="./image/donut_6.png" style="width:100%" onclick="currentSlide(4)" alt="cooky donut">
+						  </div>
+						  <div class="column">
+							<img class="demo cursor" src="./image/donut_7.png" style="width:100%" onclick="currentSlide(4)" alt="yummy donut">
+						  </div>
+						  <div class="column">
+							<img class="demo cursor" src="./image/donut_8.png" style="width:100%" onclick="currentSlide(4)" alt="delicious donut">
+						  </div>
+						  <div class="column">
+							<img class="demo cursor" src="./image/donut_9.png" style="width:100%" onclick="currentSlide(4)" alt="all-in-one donut">
+						  </div>
 						</div>
 					</div>
 					<!--End phot-container-->
