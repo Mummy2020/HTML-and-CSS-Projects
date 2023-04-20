@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+      <div id="demo">
+        <h2>The XMLHttpRequest Object</h2><!--This is XMLHttpRequest header-->
+        <button type="button" onclick="loadDoc()">Change Content</button> <!--This triggers the function to load the change on the screen-->
+        </div>
+        <!--The function below sets the XMLHttpRequest, call the function, and send the request-->
+        <script>
+        function loadDoc() { 
+          const xhttp = new XMLHttpRequest();
+          xhttp.onload = function() {
+            document.getElementById("demo").innerHTML =
+            this.responseText;
+          }
+          xhttp.open("GET", "content.html");
+          xhttp.send();
+        }
+        </script>
+
+</body>
+</html>
